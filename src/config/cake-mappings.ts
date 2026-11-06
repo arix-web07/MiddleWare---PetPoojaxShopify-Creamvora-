@@ -132,9 +132,16 @@ export function resolveCakeMapping(
     if (match) return { mapping: match, matchedBy: "title_variant" };
   }
 
-  // 3. SKU: skip duplicates that resolve to different POS variations.
+  // 3. SKU fallback: a SKU cannot override a different Shopify product or size.
+  // Shopify's export may reuse a SKU on a product that is NOT in the mapping file.
+  // Therefore checking uniqueness among mappings alone is not sufficient.
   if (skuStr) {
-    const match = uniqueTarget(mappings.filter((m) => normText(m.shopifySku) === skuStr));
+    const compatible = mappings.filter((m) =>
+      normText(m.shopifySku) === skuStr &&
+      (!m.shopifyTitle || normText(m.shopifyTitle) === shopifyTitle) &&
+      (!m.shopifyVariantTitle || normText(m.shopifyVariantTitle) === shopifyVariantTitle)
+    );
+    const match = uniqueTarget(compatible);
     if (match) return { mapping: match, matchedBy: "sku" };
   }
 
@@ -161,7 +168,8 @@ export function resolveCakeMapping(
     for (const pool of pools) {
       const candidates = pool.filter((m) => {
         const mapTitles = [normText(m.shopifyTitle), normText(m.cakeName)];
-        return mapTitles.some((t) => t && titleCandidates.includes(t));
+        return mapTitles.some((t) => t && titleCandidates.includes(t)) &&
+          (!m.shopifyVariantTitle || normText(m.shopifyVariantTitle) === shopifyVariantTitle);
       });
       const match = uniqueTarget(candidates);
       if (match) return { mapping: match, matchedBy: "title" };
