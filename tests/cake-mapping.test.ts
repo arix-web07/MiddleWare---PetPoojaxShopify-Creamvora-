@@ -74,7 +74,7 @@ describe("resolveCakeMapping", () => {
   });
 
   it("matches by SKU when the variant ID is not mapped", () => {
-    const result = resolveCakeMapping({ id: 1, product_id: 500, variant_id: 7777, sku: " truffle-1kg ", title: "x" }, mappings);
+    const result = resolveCakeMapping({ id: 1, product_id: 500, variant_id: 7777, sku: " truffle-1kg ", title: "Truffle Cake (1kg)" }, mappings);
     expect(result.matchedBy).toBe("sku");
     expect(result.mapping?.cakeName).toBe("Truffle Cake (1kg)");
   });
@@ -119,6 +119,22 @@ describe("resolveCakeMapping", () => {
       { cakeName: "Second", shopifySku: "DUPLICATE", petpoojaItemId: "20" },
     ];
     expect(resolveCakeMapping({ id: 1, title: "Unknown", sku: "DUPLICATE" }, entries).mapping).toBeUndefined();
+  });
+
+  it("does not misroute unmapped Chocolate Cherry Bliss to Hazelnut Rocher via a reused SKU", () => {
+    const entries: CakeItemMapping[] = [
+      { cakeName: "Rocher 600", shopifyTitle: "The Hazelnut Chocolate Rocher", shopifyVariantTitle: "600 GM", shopifySku: "CVHC -50", petpoojaItemId: "1312471963", petpoojaVariationId: "1312471986" },
+      { cakeName: "Rocher 1 KG", shopifyTitle: "The Hazelnut Chocolate Rocher", shopifyVariantTitle: "1 KG", shopifySku: "CVHC -100", petpoojaItemId: "1312471963", petpoojaVariationId: "1312471987" },
+    ];
+    expect(resolveCakeMapping({ id: 1, title: "Chocolate Cherry Bliss", variant_title: "600 GM", sku: "CVHC -50" }, entries).mapping).toBeUndefined();
+    expect(resolveCakeMapping({ id: 2, title: "Chocolate Cherry Bliss", variant_title: "1000 GM", sku: "CVHC -100" }, entries).mapping).toBeUndefined();
+  });
+
+  it("does not use a stale SKU to override the selected variant size", () => {
+    const entries: CakeItemMapping[] = [
+      { cakeName: "Rocher 600", shopifyTitle: "The Hazelnut Chocolate Rocher", shopifyVariantTitle: "600 GM", shopifySku: "CVHC -50", petpoojaItemId: "1312471963", petpoojaVariationId: "1312471986" },
+    ];
+    expect(resolveCakeMapping({ id: 1, title: "The Hazelnut Chocolate Rocher", variant_title: "1 KG", sku: "CVHC -50" }, entries).mapping).toBeUndefined();
   });
 
   it("does not match a line item ID against mapped variant IDs", () => {
