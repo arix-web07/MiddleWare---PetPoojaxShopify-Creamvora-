@@ -103,6 +103,24 @@ describe("resolveCakeMapping", () => {
     expect(result.reason).toContain("Shopify product 500");
   });
 
+  it("uses the selected size to distinguish variants with the same title and blank SKU", () => {
+    const entries: CakeItemMapping[] = [
+      { cakeName: "Test Cake 500", shopifyTitle: "Test Cake", shopifyVariantTitle: "500 GM", petpoojaItemId: "10", petpoojaVariationId: "101" },
+      { cakeName: "Test Cake 850", shopifyTitle: "Test Cake", shopifyVariantTitle: "850 GM", petpoojaItemId: "10", petpoojaVariationId: "102" },
+    ];
+    const result = resolveCakeMapping({ id: 1, title: "Test Cake", variant_title: "850 GM", sku: "" }, entries);
+    expect(result.matchedBy).toBe("title_variant");
+    expect(result.mapping?.petpoojaVariationId).toBe("102");
+  });
+
+  it("never chooses the first of two conflicting Petpooja targets sharing a SKU", () => {
+    const entries: CakeItemMapping[] = [
+      { cakeName: "First", shopifySku: "DUPLICATE", petpoojaItemId: "10" },
+      { cakeName: "Second", shopifySku: "DUPLICATE", petpoojaItemId: "20" },
+    ];
+    expect(resolveCakeMapping({ id: 1, title: "Unknown", sku: "DUPLICATE" }, entries).mapping).toBeUndefined();
+  });
+
   it("does not match a line item ID against mapped variant IDs", () => {
     expect(findCakeMapping({ id: 1001, variant_id: 5, title: "Unknown" }, mappings)).toBeUndefined();
   });
@@ -173,7 +191,13 @@ describe("PetpoojaOrderMapper line item mapping", () => {
   it("uses the configured mapping file when the webhook passes no mappings", () => {
     vi.spyOn(console, "log").mockImplementation(() => {});
     const [first] = getCakeMappings();
-    const order = buildOrder([line({ id: 1, variant_id: first.shopifyVariantId, title: "Anything" })]);
+    const order = buildOrder([line({
+      id: 1,
+      variant_id: first.shopifyVariantId || 9000001,
+      title: first.shopifyTitle || first.cakeName,
+      variant_title: first.shopifyVariantTitle || "Default Title",
+      sku: first.shopifySku || "",
+    })]);
 
     const [item] = PetpoojaOrderMapper.toPetpoojaPayload(order, null, mapperOptions).orderinfo.OrderInfo.OrderItem.details;
 
