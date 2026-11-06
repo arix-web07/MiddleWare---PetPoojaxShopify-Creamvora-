@@ -507,5 +507,14 @@
     "petpoojaVariationId": "1312472005",
     "petpoojaVariationName": "850 Gms",
     "shopifyVariantId": "42019592929413"
+  },
+  {
+    "cakeName": "Cremevora Petit Gateaux - Single Serve | Default Title",
+    "shopifyTitle": "Cremevora Petit Gateaux - Single Serve",
+    "shopifyVariantTitle": "Default Title",
+    "shopifyVariantId": "41775576842373",
+    "shopifySku": "CVPC - 10",
+    "petpoojaItemId": "1318109714",
+    "petpoojaItemName": "Petit Gateaux Box Of Four"
   }
 ]
