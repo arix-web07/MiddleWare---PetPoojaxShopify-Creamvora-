@@ -256,5 +256,5 @@ curl -X POST https://petpooja-middleware1.vercel.app/api/webhooks/shopify \
 
 ---
 
-*Engineered with precision for **Cremevora: Luxury Cakes, Mindfully Crafted**.*
+*Engineered and maintained by [VICKY PRASAD MAHATO](abvicky.in) with precision for **Cremevora: Luxury Cakes, Mindfully Crafted**.*
 
