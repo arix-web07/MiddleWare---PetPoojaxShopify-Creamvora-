@@ -7,7 +7,8 @@
     "petpoojaItemName": "Golden Pistachio Kunafa",
     "shopifySku": "GPK600",
     "petpoojaVariationId": "1312472000",
-    "petpoojaVariationName": "600 Gms"
+    "petpoojaVariationName": "600 Gms",
+    "shopifyVariantId": "41967374139525"
   },
   {
     "cakeName": "Golden Pistachio Kunafa - The Diwali Edit | 1000 GM",
@@ -16,7 +17,8 @@
     "petpoojaItemId": "1312471970",
     "petpoojaItemName": "Golden Pistachio Kunafa",
     "petpoojaVariationId": "1312472001",
-    "petpoojaVariationName": "1000 Gms"
+    "petpoojaVariationName": "1000 Gms",
+    "shopifyVariantId": "41975678763141"
   },
   {
     "cakeName": "Exotic Berry Cheese Cake - The Diwali Edit | 600 GM",
@@ -26,7 +28,8 @@
     "petpoojaItemName": "Exotic Berries Cheese Cake",
     "shopifySku": "EBCC700",
     "petpoojaVariationId": "1312471994",
-    "petpoojaVariationName": "600 Gms"
+    "petpoojaVariationName": "600 Gms",
+    "shopifyVariantId": "41967347630213"
   },
   {
     "cakeName": "Exotic Berry Cheese Cake - The Diwali Edit | 1100 GM",
@@ -36,7 +39,8 @@
     "petpoojaItemName": "Exotic Berries Cheese Cake",
     "shopifySku": "EBCD1KG",
     "petpoojaVariationId": "1312471995",
-    "petpoojaVariationName": "1100 Gms"
+    "petpoojaVariationName": "1100 Gms",
+    "shopifyVariantId": "41971483902085"
   },
   {
     "cakeName": "The Hazelnut Chocolate Rocher - The Diwali Edit | 600 GM",
@@ -45,7 +49,8 @@
     "petpoojaItemId": "1312471963",
     "petpoojaItemName": "The Hazelnut Chocolate Rocher",
     "petpoojaVariationId": "1312471986",
-    "petpoojaVariationName": "600 Gms"
+    "petpoojaVariationName": "600 Gms",
+    "shopifyVariantId": "41975673487493"
   },
   {
     "cakeName": "The Hazelnut Chocolate Rocher - The Diwali Edit | 1000 GM",
@@ -55,7 +60,8 @@
     "petpoojaItemName": "The Hazelnut Chocolate Rocher",
     "shopifySku": "THCR1KG",
     "petpoojaVariationId": "1312471987",
-    "petpoojaVariationName": "1000 Gms"
+    "petpoojaVariationName": "1000 Gms",
+    "shopifyVariantId": "41967347597445"
   },
   {
     "cakeName": "Belgian Brownie Lava Truffle - The Diwali Edit | 500 GM / Regular",
@@ -64,7 +70,8 @@
     "petpoojaItemId": "1312471962",
     "petpoojaItemName": "Belgian Brownie Lava Truffle",
     "petpoojaVariationId": "1312471984",
-    "petpoojaVariationName": "500 Gms"
+    "petpoojaVariationName": "500 Gms",
+    "shopifyVariantId": "41975671062661"
   },
   {
     "cakeName": "Belgian Brownie Lava Truffle - The Diwali Edit | 500 GM / Sugar-Free",
@@ -73,7 +80,8 @@
     "petpoojaItemId": "1312471972",
     "petpoojaItemName": "Molten Brownie Lava (Sugarfree)",
     "petpoojaVariationId": "1312472004",
-    "petpoojaVariationName": "500 Gms"
+    "petpoojaVariationName": "500 Gms",
+    "shopifyVariantId": "42019722887301"
   },
   {
     "cakeName": "Belgian Brownie Lava Truffle - The Diwali Edit | 850 GM / Regular",
@@ -83,7 +91,8 @@
     "petpoojaItemName": "Belgian Brownie Lava Truffle",
     "shopifySku": "BBLT3",
     "petpoojaVariationId": "1312471985",
-    "petpoojaVariationName": "850 Gms"
+    "petpoojaVariationName": "850 Gms",
+    "shopifyVariantId": "41967341764741"
   },
   {
     "cakeName": "Belgian Brownie Lava Truffle - The Diwali Edit | 850 GM / Sugar-Free",
@@ -92,21 +101,24 @@
     "petpoojaItemId": "1312471972",
     "petpoojaItemName": "Molten Brownie Lava (Sugarfree)",
     "petpoojaVariationId": "1312472005",
-    "petpoojaVariationName": "850 Gms"
+    "petpoojaVariationName": "850 Gms",
+    "shopifyVariantId": "42019722920069"
   },
   {
     "cakeName": "Petit Gâteaux - The Diwali Edit | Default Title",
     "shopifyTitle": "Petit Gâteaux - The Diwali Edit",
     "shopifyVariantTitle": "Default Title",
     "petpoojaItemId": "1318109616",
-    "petpoojaItemName": "Diwali Edit Petit Gateaux Box Of 4"
+    "petpoojaItemName": "Diwali Edit Petit Gateaux Box Of 4",
+    "shopifyVariantId": "41967341699205"
   },
   {
     "cakeName": "CRÈMEVORA's Jars of Joy- The Diwali Edit | Default Title",
     "shopifyTitle": "CRÈMEVORA's Jars of Joy- The Diwali Edit",
     "shopifyVariantTitle": "Default Title",
     "petpoojaItemId": "1318109618",
-    "petpoojaItemName": "Cremevora's Jars Of Joy"
+    "petpoojaItemName": "Cremevora's Jars Of Joy",
+    "shopifyVariantId": "41967341502597"
   },
   {
     "cakeName": "CRÈMEVORA's Box of Joy - The Diwali Edit | 700 GM",
@@ -114,7 +126,8 @@
     "shopifyVariantTitle": "700 GM",
     "petpoojaItemId": "1318109617",
     "petpoojaItemName": "Cremevora's Box Of Joy",
-    "shopifySku": "HAMPER1"
+    "shopifySku": "HAMPER1",
+    "shopifyVariantId": "41967338815621"
   },
   {
     "cakeName": "Orange and Almond Gulzar Fortune Cake | 700 GM",
@@ -122,7 +135,8 @@
     "shopifyVariantTitle": "700 GM",
     "petpoojaItemId": "1318109622",
     "petpoojaItemName": "Orange And Almond Gulzar Fortune Cake",
-    "shopifySku": "OAG700"
+    "shopifySku": "OAG700",
+    "shopifyVariantId": "41967310962821"
   },
   {
     "cakeName": "Hazelnut Nutella Ishq Fortune Cake | 700 GM",
@@ -130,7 +144,8 @@
     "shopifyVariantTitle": "700 GM",
     "petpoojaItemId": "1318109621",
     "petpoojaItemName": "Hazelnut Nutella Ishq Fortune Cake",
-    "shopifySku": "HNI700"
+    "shopifySku": "HNI700",
+    "shopifyVariantId": "41967310569605"
   },
   {
     "cakeName": "Sugar Free Vanilla Chocolate Mehfil Fortune Cake | 700 GM",
@@ -138,7 +153,8 @@
     "shopifyVariantTitle": "700 GM",
     "petpoojaItemId": "1318109620",
     "petpoojaItemName": "Sugarfree Vanilla Chocolate Mehfil Fortune Cake",
-    "shopifySku": "SVCM700"
+    "shopifySku": "SVCM700",
+    "shopifyVariantId": "41967310471301"
   },
   {
     "cakeName": "Sugar-Free Kesar Pista Nazaakat Fortune Cake | 700 GM",
@@ -146,7 +162,8 @@
     "shopifyVariantTitle": "700 GM",
     "petpoojaItemId": "1318109619",
     "petpoojaItemName": "Sugar-Free Kesar Pista Nazaakat Fortune Cake",
-    "shopifySku": "SKPN700"
+    "shopifySku": "SKPN700",
+    "shopifyVariantId": "41967310110853"
   },
   {
     "cakeName": "Chocolate & Strawberry Bliss | 550 GM / Regular",
@@ -155,7 +172,8 @@
     "petpoojaItemId": "1312471968",
     "petpoojaItemName": "Chocolate & Strawberry Bliss",
     "petpoojaVariationId": "1312471996",
-    "petpoojaVariationName": "600 Gms"
+    "petpoojaVariationName": "600 Gms",
+    "shopifyVariantId": "42020294426757"
   },
   {
     "cakeName": "Chocolate & Strawberry Bliss | 550 GM / Sugar-Free",
@@ -164,7 +182,8 @@
     "petpoojaItemId": "1312471973",
     "petpoojaItemName": "Chocolate & Strawberry Bliss (sugarfree)",
     "petpoojaVariationId": "1312472006",
-    "petpoojaVariationName": "550 Gms"
+    "petpoojaVariationName": "550 Gms",
+    "shopifyVariantId": "42019696902277"
   },
   {
     "cakeName": "Chocolate & Strawberry Bliss | 950 GM / Regular",
@@ -173,7 +192,8 @@
     "petpoojaItemId": "1312471968",
     "petpoojaItemName": "Chocolate & Strawberry Bliss",
     "petpoojaVariationId": "1312471997",
-    "petpoojaVariationName": "1000 Gms"
+    "petpoojaVariationName": "1000 Gms",
+    "shopifyVariantId": "42020294459525"
   },
   {
     "cakeName": "Chocolate & Strawberry Bliss | 950 GM / Sugar-Free",
@@ -182,7 +202,8 @@
     "petpoojaItemId": "1312471973",
     "petpoojaItemName": "Chocolate & Strawberry Bliss (sugarfree)",
     "petpoojaVariationId": "1312472007",
-    "petpoojaVariationName": "900 Gms"
+    "petpoojaVariationName": "900 Gms",
+    "shopifyVariantId": "42019696935045"
   },
   {
     "cakeName": "Raksha Bandhan Festive Cake | 1 KG",
@@ -190,7 +211,8 @@
     "shopifyVariantTitle": "1 KG",
     "petpoojaItemId": "1312471977",
     "petpoojaItemName": "Raksha Bandhan Festive Cake (1000 Gms)",
-    "shopifySku": "CVFC 100"
+    "shopifySku": "CVFC 100",
+    "shopifyVariantId": "41775576285317"
   },
   {
     "cakeName": "Avengers Theme Cake | 1 KG",
@@ -198,7 +220,8 @@
     "shopifyVariantTitle": "1 KG",
     "petpoojaItemId": "1312471976",
     "petpoojaItemName": "Avengers Theme Cake (1000 Gms)",
-    "shopifySku": "CVTC 100"
+    "shopifySku": "CVTC 100",
+    "shopifyVariantId": "41775576023173"
   },
   {
     "cakeName": "Unicorn Theme Cake | 1 KG",
@@ -206,7 +229,8 @@
     "shopifyVariantTitle": "1 KG",
     "petpoojaItemId": "1312471975",
     "petpoojaItemName": "Unicorn Theme Cake (1000 Gms)",
-    "shopifySku": "CVTC-100"
+    "shopifySku": "CVTC-100",
+    "shopifyVariantId": "41775575826565"
   },
   {
     "cakeName": "Millet Chocolate Ganache | 550 GM",
@@ -215,7 +239,8 @@
     "petpoojaItemId": "1312471974",
     "petpoojaItemName": "Millet Chocolate Ganache",
     "petpoojaVariationId": "1312472008",
-    "petpoojaVariationName": "550 Gms"
+    "petpoojaVariationName": "550 Gms",
+    "shopifyVariantId": "41775553577093"
   },
   {
     "cakeName": "Millet Chocolate Ganache | 1050 GM",
@@ -224,7 +249,8 @@
     "petpoojaItemId": "1312471974",
     "petpoojaItemName": "Millet Chocolate Ganache",
     "petpoojaVariationId": "1312472009",
-    "petpoojaVariationName": "1050 Gms"
+    "petpoojaVariationName": "1050 Gms",
+    "shopifyVariantId": "41775553609861"
   },
   {
     "cakeName": "Chocolate & Strawberry Bliss (Sugar Free) | 550 GM",
@@ -233,7 +259,8 @@
     "petpoojaItemId": "1312471973",
     "petpoojaItemName": "Chocolate & Strawberry Bliss (sugarfree)",
     "petpoojaVariationId": "1312472006",
-    "petpoojaVariationName": "550 Gms"
+    "petpoojaVariationName": "550 Gms",
+    "shopifyVariantId": "41775551840389"
   },
   {
     "cakeName": "Chocolate & Strawberry Bliss (Sugar Free) | 900 GM",
@@ -242,7 +269,8 @@
     "petpoojaItemId": "1312471973",
     "petpoojaItemName": "Chocolate & Strawberry Bliss (sugarfree)",
     "petpoojaVariationId": "1312472007",
-    "petpoojaVariationName": "900 Gms"
+    "petpoojaVariationName": "900 Gms",
+    "shopifyVariantId": "41775551873157"
   },
   {
     "cakeName": "Exotic Berries Cheese Cake | 600 GM",
@@ -252,7 +280,8 @@
     "petpoojaItemName": "Exotic Berries Cheese Cake",
     "shopifySku": "CVIB- 50",
     "petpoojaVariationId": "1312471994",
-    "petpoojaVariationName": "600 Gms"
+    "petpoojaVariationName": "600 Gms",
+    "shopifyVariantId": "41775551381637"
   },
   {
     "cakeName": "Exotic Berries Cheese Cake | 1100 GM",
@@ -262,7 +291,8 @@
     "petpoojaItemName": "Exotic Berries Cheese Cake",
     "shopifySku": "CVIB- 100",
     "petpoojaVariationId": "1312471995",
-    "petpoojaVariationName": "1100 Gms"
+    "petpoojaVariationName": "1100 Gms",
+    "shopifyVariantId": "41775551414405"
   },
   {
     "cakeName": "Double Chocolate & Cherry | 600 GM",
@@ -272,7 +302,8 @@
     "petpoojaItemName": "Double Chocolate & Cherry",
     "shopifySku": "CVCH -50",
     "petpoojaVariationId": "1312471992",
-    "petpoojaVariationName": "600 Gms"
+    "petpoojaVariationName": "600 Gms",
+    "shopifyVariantId": "41775551217797"
   },
   {
     "cakeName": "Double Chocolate & Cherry | 1000 GM",
@@ -282,7 +313,8 @@
     "petpoojaItemName": "Double Chocolate & Cherry",
     "shopifySku": "CVCH - 100",
     "petpoojaVariationId": "1312471993",
-    "petpoojaVariationName": "1000 Gms"
+    "petpoojaVariationName": "1000 Gms",
+    "shopifyVariantId": "41775551250565"
   },
   {
     "cakeName": "Salted Choco Peanut Caramel | 600 GM",
@@ -292,7 +324,8 @@
     "petpoojaItemName": "Salted Choco Peanut Caramel",
     "shopifySku": "CVPC - 50",
     "petpoojaVariationId": "1312471990",
-    "petpoojaVariationName": "600 Gms"
+    "petpoojaVariationName": "600 Gms",
+    "shopifyVariantId": "41775550922885"
   },
   {
     "cakeName": "Salted Choco Peanut Caramel | 1050 GM",
@@ -302,7 +335,8 @@
     "petpoojaItemName": "Salted Choco Peanut Caramel",
     "shopifySku": "CVPC - 100",
     "petpoojaVariationId": "1312471991",
-    "petpoojaVariationName": "1050 Gms"
+    "petpoojaVariationName": "1050 Gms",
+    "shopifyVariantId": "41775550955653"
   },
   {
     "cakeName": "Molten Brownie Lava (Sugar Free) | 500 GM",
@@ -311,7 +345,8 @@
     "petpoojaItemId": "1312471972",
     "petpoojaItemName": "Molten Brownie Lava (Sugarfree)",
     "petpoojaVariationId": "1312472004",
-    "petpoojaVariationName": "500 Gms"
+    "petpoojaVariationName": "500 Gms",
+    "shopifyVariantId": "41773297500293"
   },
   {
     "cakeName": "Molten Brownie Lava (Sugar Free) | 850 GM",
@@ -320,7 +355,8 @@
     "petpoojaItemId": "1312471972",
     "petpoojaItemName": "Molten Brownie Lava (Sugarfree)",
     "petpoojaVariationId": "1312472005",
-    "petpoojaVariationName": "850 Gms"
+    "petpoojaVariationName": "850 Gms",
+    "shopifyVariantId": "41773297533061"
   },
   {
     "cakeName": "The Pecan Tiramisu | 450 GM",
@@ -330,7 +366,8 @@
     "petpoojaItemName": "The Pecan Tiramisu",
     "shopifySku": "CVPT-50",
     "petpoojaVariationId": "1312472002",
-    "petpoojaVariationName": "450 Gms"
+    "petpoojaVariationName": "450 Gms",
+    "shopifyVariantId": "41773289013381"
   },
   {
     "cakeName": "The Pecan Tiramisu | 900 GM",
@@ -340,7 +377,8 @@
     "petpoojaItemName": "The Pecan Tiramisu",
     "shopifySku": "CVPT-100",
     "petpoojaVariationId": "1312472003",
-    "petpoojaVariationName": "900 Gms"
+    "petpoojaVariationName": "900 Gms",
+    "shopifyVariantId": "41773289046149"
   },
   {
     "cakeName": "Golden Pistachio Kunafa | 600 GM",
@@ -350,7 +388,8 @@
     "petpoojaItemName": "Golden Pistachio Kunafa",
     "shopifySku": "CVKP-50",
     "petpoojaVariationId": "1312472000",
-    "petpoojaVariationName": "600 Gms"
+    "petpoojaVariationName": "600 Gms",
+    "shopifyVariantId": "41773288652933"
   },
   {
     "cakeName": "Golden Pistachio Kunafa | 1 KG",
@@ -360,7 +399,8 @@
     "petpoojaItemName": "Golden Pistachio Kunafa",
     "shopifySku": "CVKP-100",
     "petpoojaVariationId": "1312472001",
-    "petpoojaVariationName": "1000 Gms"
+    "petpoojaVariationName": "1000 Gms",
+    "shopifyVariantId": "41773288685701"
   },
   {
     "cakeName": "Pistachio Strawberry Royale | 600 GM",
@@ -370,7 +410,8 @@
     "petpoojaItemName": "Pistachio Strawberry Royale",
     "shopifySku": "CVPS- 50",
     "petpoojaVariationId": "1312471998",
-    "petpoojaVariationName": "600 Gms"
+    "petpoojaVariationName": "600 Gms",
+    "shopifyVariantId": "41773288390789"
   },
   {
     "cakeName": "Pistachio Strawberry Royale | 1 KG",
@@ -380,7 +421,8 @@
     "petpoojaItemName": "Pistachio Strawberry Royale",
     "shopifySku": "CVPS-100",
     "petpoojaVariationId": "1312471999",
-    "petpoojaVariationName": "1000 Gms"
+    "petpoojaVariationName": "1000 Gms",
+    "shopifyVariantId": "41773288423557"
   },
   {
     "cakeName": "Gondhoraj Citrus Chocolate | 600GM",
@@ -390,7 +432,8 @@
     "petpoojaItemName": "Gondhoraj Citrus Chocolate",
     "shopifySku": "CVCC-50",
     "petpoojaVariationId": "1312471988",
-    "petpoojaVariationName": "600 Gms"
+    "petpoojaVariationName": "600 Gms",
+    "shopifyVariantId": "41773260439685"
   },
   {
     "cakeName": "Gondhoraj Citrus Chocolate | 1100GM",
@@ -400,7 +443,8 @@
     "petpoojaItemName": "Gondhoraj Citrus Chocolate",
     "shopifySku": "CVCC-100",
     "petpoojaVariationId": "1312471989",
-    "petpoojaVariationName": "1100 Gms"
+    "petpoojaVariationName": "1100 Gms",
+    "shopifyVariantId": "41773260472453"
   },
   {
     "cakeName": "The Hazelnut Chocolate Rocher | 600 GM",
@@ -409,7 +453,8 @@
     "petpoojaItemId": "1312471963",
     "petpoojaItemName": "The Hazelnut Chocolate Rocher",
     "petpoojaVariationId": "1312471986",
-    "petpoojaVariationName": "600 Gms"
+    "petpoojaVariationName": "600 Gms",
+    "shopifyVariantId": "41773253656709"
   },
   {
     "cakeName": "The Hazelnut Chocolate Rocher | 1 KG",
@@ -418,7 +463,8 @@
     "petpoojaItemId": "1312471963",
     "petpoojaItemName": "The Hazelnut Chocolate Rocher",
     "petpoojaVariationId": "1312471987",
-    "petpoojaVariationName": "1000 Gms"
+    "petpoojaVariationName": "1000 Gms",
+    "shopifyVariantId": "41773253689477"
   },
   {
     "cakeName": "Belgian Brownie Lava Truffle | Regular / 500 GM",
@@ -427,7 +473,8 @@
     "petpoojaItemId": "1312471962",
     "petpoojaItemName": "Belgian Brownie Lava Truffle",
     "petpoojaVariationId": "1312471984",
-    "petpoojaVariationName": "500 Gms"
+    "petpoojaVariationName": "500 Gms",
+    "shopifyVariantId": "42019641655429"
   },
   {
     "cakeName": "Belgian Brownie Lava Truffle | Regular / 850 GM",
@@ -436,7 +483,8 @@
     "petpoojaItemId": "1312471962",
     "petpoojaItemName": "Belgian Brownie Lava Truffle",
     "petpoojaVariationId": "1312471985",
-    "petpoojaVariationName": "850 Gms"
+    "petpoojaVariationName": "850 Gms",
+    "shopifyVariantId": "42019641688197"
   },
   {
     "cakeName": "Belgian Brownie Lava Truffle | Sugar-Free / 500 GM",
@@ -446,7 +494,8 @@
     "petpoojaItemName": "Molten Brownie Lava (Sugarfree)",
     "shopifySku": "CVMB-50",
     "petpoojaVariationId": "1312472004",
-    "petpoojaVariationName": "500 Gms"
+    "petpoojaVariationName": "500 Gms",
+    "shopifyVariantId": "42019592896645"
   },
   {
     "cakeName": "Belgian Brownie Lava Truffle | Sugar-Free / 850 GM",
@@ -456,6 +505,7 @@
     "petpoojaItemName": "Molten Brownie Lava (Sugarfree)",
     "shopifySku": "CVMB-100",
     "petpoojaVariationId": "1312472005",
-    "petpoojaVariationName": "850 Gms"
+    "petpoojaVariationName": "850 Gms",
+    "shopifyVariantId": "42019592929413"
   }
 ]
