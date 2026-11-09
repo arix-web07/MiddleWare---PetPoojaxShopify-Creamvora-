@@ -44,7 +44,7 @@ sequenceDiagram
     Note over Customer, POS: Order Creation Flow
     Customer->>Shopify: Places order & completes checkout
     Shopify->>Middleware: POST /api/webhooks/shopify (Topic: orders/create)
-    Note over Middleware: 1. Verify HMAC Signature<br/>2. Format lines, taxes, discounts & customer address<br/>3. Attach Restaurant Code: ufgiv4ye0k
+    Note over Middleware: 1. Verify HMAC Signature<br/>2. Format lines, taxes, discounts & customer address<br/>3. Attach Restaurant Code: YOUR_PETPOOJA_REST_ID
     Middleware->>Petpooja: POST https://pponlineordercb.petpooja.com/save_order
     Petpooja-->>Middleware: {"success": "1", "message": "Your order is saved."}
     Middleware-->>Shopify: 200 OK (Acknowledged)
@@ -70,7 +70,7 @@ sequenceDiagram
 - **GitHub Repository**: [`ABVicky/MiddleWare---PetPoojaxShopify-Creamvora-`](https://github.com/ABVicky/MiddleWare---PetPoojaxShopify-Creamvora-)
 - **Brand / Restaurant Name**: `Cremevora`
 - **Petpooja Restaurant ID**: `451593`
-- **Petpooja Restaurant Code (`restid`)**: `ufgiv4ye0k` *(Used as `restid` in all API calls)*
+- **Petpooja Restaurant Code (`restid`)**: `YOUR_PETPOOJA_REST_ID` *(Used as `restid` in all API calls)*
 
 ---
 
@@ -110,10 +110,10 @@ Configured in your **Vercel Project Dashboard** ➔ **Settings** ➔ **Environme
 | :--- | :--- | :--- |
 | `APP_URL` | Live middleware base URL | `https://petpooja-middleware1.vercel.app` |
 | `PETPOOJA_ENV` | Target API Environment | `production` |
-| `PETPOOJA_APP_KEY` | Petpooja Developer API Key | `iksfvd458an7y91etcmqo0jph6wrxbg3` |
-| `PETPOOJA_APP_SECRET` | Petpooja Developer API Secret | `a36bed2ad5c3a821948a29c60ec53bb4d4df0051` |
-| `PETPOOJA_ACCESS_TOKEN` | Petpooja API Access Token | `f756c3e36c915db29339bc8b139bfdd2f4abf4e3` |
-| `PETPOOJA_REST_ID` | Petpooja Restaurant Code (`restid`) | `ufgiv4ye0k` |
+| `PETPOOJA_APP_KEY` | Petpooja Developer API Key | `YOUR_PETPOOJA_APP_KEY` |
+| `PETPOOJA_APP_SECRET` | Petpooja Developer API Secret | `YOUR_PETPOOJA_APP_SECRET` |
+| `PETPOOJA_ACCESS_TOKEN` | Petpooja API Access Token | `YOUR_PETPOOJA_ACCESS_TOKEN` |
+| `PETPOOJA_REST_ID` | Petpooja Restaurant Code (`restid`) | `YOUR_PETPOOJA_REST_ID` |
 | `PETPOOJA_RESTAURANT_ID` | Petpooja Restaurant ID | `451593` |
 | `PETPOOJA_RESTAURANT_NAME` | Restaurant Brand Name | `Cremevora` |
 | `PETPOOJA_ORDER_API_URL` | Production Order Relay URL | `https://pponlineordercb.petpooja.com/save_order` |
@@ -160,11 +160,11 @@ Configured in your **Vercel Project Dashboard** ➔ **Settings** ➔ **Environme
 ```bash
 curl -X POST https://petpooja-middleware1.vercel.app/api/petpooja/get-status \
   -H "Content-Type: application/json" \
-  -d '{"restID": "ufgiv4ye0k"}'
+  -d '{"restID": "YOUR_PETPOOJA_REST_ID"}'
 ```
 **Response:**
 ```json
-{"success":"1","restID":"ufgiv4ye0k","status":"1","message":"Store is ONLINE"}
+{"success":"1","restID":"YOUR_PETPOOJA_REST_ID","status":"1","message":"Store is ONLINE"}
 ```
 
 ### 2. Test Order Creation Relay

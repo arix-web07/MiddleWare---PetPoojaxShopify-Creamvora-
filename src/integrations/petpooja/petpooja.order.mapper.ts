@@ -28,10 +28,10 @@ export class PetpoojaOrderMapper {
   ): PetpoojaSaveOrderPayload {
     const billing = BillingCalculator.calculateBilling(order);
 
-    const appKey = options?.appKey || process.env.PETPOOJA_APP_KEY || "iksfvd458an7y91etcmqo0jph6wrxbg3";
-    const appSecret = options?.appSecret || process.env.PETPOOJA_APP_SECRET || "a36bed2ad5c3a821948a29c60ec53bb4d4df0051";
-    const accessToken = options?.accessToken || process.env.PETPOOJA_ACCESS_TOKEN || "f756c3e36c915db29339bc8b139bfdd2f4abf4e3";
-    const restId = options?.restId || process.env.PETPOOJA_REST_ID || "ufgiv4ye0k";
+    const appKey = options?.appKey || process.env.PETPOOJA_APP_KEY || "";
+    const appSecret = options?.appSecret || process.env.PETPOOJA_APP_SECRET || "";
+    const accessToken = options?.accessToken || process.env.PETPOOJA_ACCESS_TOKEN || "";
+    const restId = options?.restId || process.env.PETPOOJA_REST_ID || "";
     const restaurantName =
       options?.restaurantName ||
       process.env.PETPOOJA_RESTAURANT_NAME ||

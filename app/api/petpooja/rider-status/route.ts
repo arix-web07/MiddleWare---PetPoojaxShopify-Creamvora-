@@ -9,10 +9,10 @@ export async function POST(req: NextRequest) {
     const body = await req.json().catch(() => ({}));
     const { clientorderID, orderID, status, rider_name, rider_phone_number, restID } = body;
 
-    const appKey = process.env.PETPOOJA_APP_KEY || "iksfvd458an7y91etcmqo0jph6wrxbg3";
-    const appSecret = process.env.PETPOOJA_APP_SECRET || "a36bed2ad5c3a821948a29c60ec53bb4d4df0051";
-    const accessToken = process.env.PETPOOJA_ACCESS_TOKEN || "f756c3e36c915db29339bc8b139bfdd2f4abf4e3";
-    const defaultRestId = process.env.PETPOOJA_REST_ID || "ufgiv4ye0k";
+    const appKey = process.env.PETPOOJA_APP_KEY || "";
+    const appSecret = process.env.PETPOOJA_APP_SECRET || "";
+    const accessToken = process.env.PETPOOJA_ACCESS_TOKEN || "";
+    const defaultRestId = process.env.PETPOOJA_REST_ID || "";
 
     const petpoojaClient = new PetpoojaClient({
       appKey,

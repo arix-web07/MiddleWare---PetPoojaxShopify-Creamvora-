@@ -73,10 +73,10 @@ export async function POST(req: NextRequest) {
       cancelReason,
     });
 
-    const appKey = process.env.PETPOOJA_APP_KEY || "iksfvd458an7y91etcmqo0jph6wrxbg3";
-    const appSecret = process.env.PETPOOJA_APP_SECRET || "a36bed2ad5c3a821948a29c60ec53bb4d4df0051";
-    const accessToken = process.env.PETPOOJA_ACCESS_TOKEN || "f756c3e36c915db29339bc8b139bfdd2f4abf4e3";
-    const restId = process.env.PETPOOJA_REST_ID || "ufgiv4ye0k";
+    const appKey = process.env.PETPOOJA_APP_KEY || "";
+    const appSecret = process.env.PETPOOJA_APP_SECRET || "";
+    const accessToken = process.env.PETPOOJA_ACCESS_TOKEN || "";
+    const restId = process.env.PETPOOJA_REST_ID || "";
     const env = (process.env.PETPOOJA_ENV as "staging" | "production") || "production";
 
     const petpoojaClient = new PetpoojaClient({
@@ -138,10 +138,10 @@ export async function POST(req: NextRequest) {
     // If order was updated to cancelled state
     if (order.cancelled_at) {
       const cancelReason = order.cancel_reason || "Cancelled in Shopify";
-      const appKey = process.env.PETPOOJA_APP_KEY || "iksfvd458an7y91etcmqo0jph6wrxbg3";
-      const appSecret = process.env.PETPOOJA_APP_SECRET || "a36bed2ad5c3a821948a29c60ec53bb4d4df0051";
-      const accessToken = process.env.PETPOOJA_ACCESS_TOKEN || "f756c3e36c915db29339bc8b139bfdd2f4abf4e3";
-      const restId = process.env.PETPOOJA_REST_ID || "ufgiv4ye0k";
+      const appKey = process.env.PETPOOJA_APP_KEY || "";
+      const appSecret = process.env.PETPOOJA_APP_SECRET || "";
+      const accessToken = process.env.PETPOOJA_ACCESS_TOKEN || "";
+      const restId = process.env.PETPOOJA_REST_ID || "";
       const env = (process.env.PETPOOJA_ENV as "staging" | "production") || "production";
 
       const petpoojaClient = new PetpoojaClient({
@@ -185,10 +185,10 @@ export async function POST(req: NextRequest) {
     });
 
     // Petpooja API Credentials from Vercel Environment Variables
-    const appKey = process.env.PETPOOJA_APP_KEY || "iksfvd458an7y91etcmqo0jph6wrxbg3";
-    const appSecret = process.env.PETPOOJA_APP_SECRET || "a36bed2ad5c3a821948a29c60ec53bb4d4df0051";
-    const accessToken = process.env.PETPOOJA_ACCESS_TOKEN || "f756c3e36c915db29339bc8b139bfdd2f4abf4e3";
-    const restId = process.env.PETPOOJA_REST_ID || "ufgiv4ye0k";
+    const appKey = process.env.PETPOOJA_APP_KEY || "";
+    const appSecret = process.env.PETPOOJA_APP_SECRET || "";
+    const accessToken = process.env.PETPOOJA_ACCESS_TOKEN || "";
+    const restId = process.env.PETPOOJA_REST_ID || "";
     const restaurantName = process.env.PETPOOJA_RESTAURANT_NAME || "Cremevora";
     const env = (process.env.PETPOOJA_ENV as "staging" | "production") || "production";
 
