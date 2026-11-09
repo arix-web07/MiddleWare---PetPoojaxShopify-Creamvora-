@@ -26,6 +26,17 @@ export async function POST(req: NextRequest) {
 
   // 2. Cryptographic HMAC Verification (if secret is configured in Vercel environment)
   const webhookSecret = process.env.SHOPIFY_WEBHOOK_SECRET || process.env.SHOPIFY_CLIENT_SECRET;
+  if (!webhookSecret || !hmacHeader) {
+    logger.warn("Webhook rejected: Missing signature or verification secret", {
+      deliveryId,
+      topic,
+    });
+    return NextResponse.json(
+      { error: "Invalid webhook signature" },
+      { status: 401 }
+    );
+  }
+
   if (webhookSecret && hmacHeader) {
     const verification = verifyShopifyWebhook(rawBuffer, hmacHeader, webhookSecret);
     if (!verification.isValid) {
